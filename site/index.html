@@ -2,14 +2,21 @@
 <html>
 <head>
 	<meta charset="utf-8"> 
-	<title>Coursera</title>
+	<title>Coursera &copy;</title>
 </head>
 <body>
 <header> Zkouška webových stránek dle kurzu na Coursera.com </header>
-<h1 style="color: blue; font-size: 50px; text-align: center;"> Hello! </h1>
+<h1 id=top style="color: blue; font-size: 50px; text-align: center;"> Hello! </h1>
 <br style="font-size: 20px">
+<div> Seznam stránek </div>
+<ol>
+<li> <a href="#section1">Sekce 1</a> </li>
+<li> <a href="#Test_of_Lists">Test of Lists</a> </li>
+<li> <a href="#Images">Images</a> </li>
+<li> <a target="blank" href="http://www.facebook.com">External Link / Facebook</a> </li>
+</ol>
 <h2 style="color: red; font-size: 20px;"> Coursera Course :-) </h2>
-<section>
+<section id="section1">
 <article> Article 1 
 <div> Div 1 </div>
 </article>
@@ -21,8 +28,9 @@
 </SECTION>
 <br>
 <h4 style="font-size: 20px; text-align: center;"> Ale stejně je to zábava :-) </h4>
-<h5> Test of Lists </h5>
-<div> 
+<div style="color: blue; font-size: 20px;"> Test of Lists </div>
+<div>
+<section id="Test_of_lists">
 Test of unordered list
 <ul> 
 <li> Bod 1 </li>
@@ -48,6 +56,15 @@ Test of orderd list
 </ul>
 </ol>
 </div>
+</section>
+<br style="font-size: 20px">
+<section id="Images">
+<div style="color: blue; font-size: 20px;"> Test of inupting images </div>
+<div> <img src="Foto.jpg" width="266" height="299"> </div>
+</section>
+<br style="font-size: 20px">
 <div>
+<a href="#top">Back to Top</a>
+</div>
 </body>
 </html>

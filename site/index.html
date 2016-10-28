@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html>
 
-<style>
-/* Styl stránek CSS */ 
-h1 {color: blue; opacity: 0.85; font-size: 175%; text-align: center; font-style: italic;}
-h2 {color: blue; font-size: 125%;}
-ul, ol {font-size: 100%}
-ul.Content {list-style: none;}
-ol.Intro li:nth-child(3) {font-style: italic;}
-.Test div:nth-child(odd) {background-color: grey}
-a:link, a:visited {text-decoration: none; color: blue; opacity: 0.7;}
-a:hover, a:active {color:red;}
-</style>
-
 <header style="opacity: 0.7;"> Test of webpages based on <a href=http://www.coursera.com>Coursera.com</a> </header>
 
 <head>
 	<meta charset="utf-8"> 
 	<title>Kofi &copy;</title>
+	<link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
 <h1 id=top> Coursera </h1>
+
 <section>
+
 <h2> Content </h2>
 <ul class="Content">
 <li> <a href="#About">About</a> </li>
 <li> <a target="blank" href="http://www.coursera.com">External Link / Coursera</a> </li>
 </ul>
 </section>
+
 <section id="About">
 <h2> About </h2>
 <p> Hi! My name is Jiří and I am a Strategy specialist in a Czech based manufacturing company. As an economist, I haven't been touched by programming &amp; web design so far. However, recently, I was wondering - how do all the pages actually work? How are they created? What does it take to create one? Nowadays, such a knowledge is quite useful, right? So here I am! Playing, typing, deleting.. Enjoying :-) </p>
@@ -38,11 +30,13 @@ Here are three major point I expect the course to provide me:
 <li> some basic insight in programming, </li>
 <li> last - but not least - relax :-) </li>
 </ol>
+
 <div> And what else should I use for a test of inputting images than my brand new present, my co-programmer haha: </div>
 <br>
-<div> <img src="Image.jpg" width="250" height="250"> </div>
+<div style="text-align: center;"> <img src="Image.jpg" width="250" height="250"> </div>
 </section>
 <br>
+
 <section class="Test">
 <div> New Line </div>
 <div> New Line </div>
@@ -53,6 +47,7 @@ Here are three major point I expect the course to provide me:
 <div> New Line </div>
 <div> New Line </div>
 <br>
-<div> <a href="#top">Back to Top</a> </div>
+
+<div style="text-align: center"> <a href="#top">Back to Top</a> </div>
 </body>
 </html>

@@ -1,62 +1,57 @@
 <!DOCTYPE html>
 <html>
+
+<style>
+/* Styl stránek CSS */ 
+h1 {color: blue; opacity: 0.85; font-size: 200%; text-align: center; font-style: italic;}
+h2 {color: blue; font-size: 125%;}
+ul.Content {list-style: none;}
+ol.Intro li:nth-child(3) {font-style: italic;}
+.Test div:nth-child(odd) {background-color: grey}
+a:link, a:visited {text-decoration: none; color: blue; opacity: 0.7;}
+a:hover, a:active {color:red;}
+</style>
+
+<header style="opacity: 0.7;"> Test of webpages based on <a href=http://www.coursera.com>Coursera.com</a> </header>
+
 <head>
 	<meta charset="utf-8"> 
 	<title>Kofi &copy;</title>
 </head>
-<style>
-/* all h3 elements */
-h2 {color: blue; font-size: 20px;}
-</style>
-<header style="opacity: 0.6;"> Zkouška webových stránek dle kurzu na Coursera.com </header>
+
 <body>
-<h1 id=top style="color: red; font-size: 50px; text-align: center; font-style: italic;"> Coursera </h1>
-<h2> Obsah stránek </h2>
-<ol>
+<h1 id=top> Coursera </h1>
+<section>
+<h2> Content </h2>
+<ul class="Content">
 <li> <a href="#About">About</a> </li>
-<li> <a href="#Lists">Zkouška seznamů</a> </li>
-<li> <a target="blank" href="http://www.facebook.com">External Link / Facebook</a> </li>
-</ol>
+<li> <a target="blank" href="http://www.coursera.com">External Link / Coursera</a> </li>
+</ul>
+</section>
 <section id="About">
-<h2> O stránkách </h2>
-<div> Ahoj, zkouším základy tvorby webových stránek v rámci kurzu na Coursera.com :-) </div>
-<div> A na zkoušku vkládání obrázků dávám nejvíc nejhustějšího plyšáka! </div>
+<h2> About </h2>
+<p> Hi! My name is Jiří and I am a Strategy specialist in a Czech based manufacturing company. As an economist, I haven't been touched by programming &amp; web design so far. However, recently, I was wondering - how do all the pages actually work? How are they created? What does it take to create one? Nowadays, such a knowledge is quite useful, right? So here I am! Playing, typing, deleting.. Enjoying :-) </p>
+Here are three major point I expect the course to provide me: 
+<ol class="Intro"> 
+<li> basic knowledge of web pages development, </li>
+<li> some basic insight in programming, </li>
+<li> last - but not least - relax :-) </li>
+</ol>
+<div> And what else should I use for a test of inputting images than my brand new present, my co-programmer haha: </div>
 <br>
 <div> <img src="Image.jpg" width="250" height="250"> </div>
 </section>
 <br>
-<section id="Lists">
-<h2> Test of Lists </h2>
-<div>
-Test of unordered list
-<ul> 
-<li> Bod 1 </li>
-<li> Bod 2 </li>
-<li> Bod 3 </li>
-<ul>
-<li> Bod 3.1 </li>
-<li> Bod 3.2 </li>
-<li> Bod 3.3 </li>
-</ul>
-</ul>
-</div>
-<div>
-Test of orderd list
-<ol> 
-<li> Bod 1 </li>
-<li> Bod 2 </li>
-<li> Bod 3 </li>
-<ul>
-<li> Bod 3.1 </li>
-<li> Bod 3.2 </li>
-<li> Bod 3.3 </li>
-</ul>
-</ol>
-</div>
-</section>
-<br style="font-size: 20px">
-<div>
-<a href="#top">Back to Top</a>
-</div>
+<section class="Test">
+<div> New Line </div>
+<div> New Line </div>
+<div> New Line </div>
+<div> New Line </div>
+<div> New Line </div>
+<div> New Line </div>
+<div> New Line </div>
+<div> New Line </div>
+<br>
+<div> <a href="#top">Back to Top</a> </div>
 </body>
 </html>
